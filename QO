@@ -1,0 +1,17 @@
+#!/system/bin/sh
+# QO (Quick Opener)
+# Author: Saitama (saitamasahil @ github)
+
+# Main
+quick_opener() {
+  while true; do
+    [[ "$(cmd device_config get launcher ENABLE_QUICK_LAUNCH_V2)" == "false" ]] && {
+      cmd device_config put launcher ENABLE_QUICK_LAUNCH_V2 true
+      cmd device_config put launcher GBOARD_UPDATE_ENTER_KEY true
+      am force-stop com.google.android.apps.nexuslauncher
+    }
+  done
+}
+
+# Run as daemon
+(quick_opener &)&
