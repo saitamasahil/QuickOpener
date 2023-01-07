@@ -2,7 +2,7 @@
 
 ![Header Image](https://raw.githubusercontent.com/saitamasahil/QuickOpener/main/banner.jpg)
 
-An add-on for Pixel Launcher running on Android 13 QPR2. This add-on enables a quick launch feature pixel launcher's searchbar.
+An add-on for Pixel Launcher running on Android 13 QPR2. This add-on enables a quick launch feature on pixel launcher's searchbar.
 
 ### Compatibility
 This module is expected to work on ROMs which are based on fairly unmodified Android source code.
@@ -53,6 +53,11 @@ content IS NOT going to be deleted" then just do press "y". It won't do any harm
 ```sh
 pkg install zip
 ```
+
+### Installation
+- Flash in magisk
+- Reboot device
+- Check for the feature. If the feature doesn't appear then force stop launcher.
 
 ## Contact us
 [![TeamFiles Telegram](https://img.shields.io/badge/Telegram-TeamFiles-%2326A5E4?logo=Telegram)](https://telegram.me/filesfederation)
