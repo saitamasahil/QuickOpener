@@ -1,6 +1,6 @@
 # QuickOpener
 
-[Header Image](https://raw.githubusercontent.com/saitamasahil/QuickOpener/main/banner.jpg)
+![Header Image](https://raw.githubusercontent.com/saitamasahil/QuickOpener/main/banner.jpg)
 
 An add-on for Pixel Launcher running on Android 13 QPR2. This add-on enables a quick launch feature pixel launcher's searchbar.
 
